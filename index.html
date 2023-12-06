@@ -1,0 +1,145 @@
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> --<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Takudzwa Web Dev Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/flexboxweb.css">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <!--icons-->
+        <script src="https://kit.fontawesome.com/13590931d3.js" crossorigin="anonymous"></script>
+    
+    </head>
+    <body>
+            <div id="home">
+                
+                <div class="flex-container " >
+                  <div class="home-bits-text">
+                    <h1 class="heading"> </h1>
+                     
+                      <p class="heading-text hide">
+                          I'm a creative individual based in the UK. I developed a passion for coding
+                           last year and have spent my free time actively learning various coding languages 
+                           to become a full stack web developer. I have skills in:
+                      </p>
+                  </div>
+
+                   <div class="flex-container pic-box"> 
+                    <div class="pic-sm-box">
+                      <img src="images/png/profile_pic.png" alt="profile" class="profile-pic">
+                    </div>
+                  </div>
+                </div>
+                
+                  <div  class="flex-container skills-box hide" >
+                      <div style="flex-grow: 8" class="skills-row ">
+                          <div class="skills html">HTML</div>
+                          <div class="skills css">CSS</div>
+                          <div class="skills js">JavaScript</div>
+                          <div class="skills ejs">EJS</div>
+                          <div class="skills node">Node.js</div>
+                          <div class="skills xps">Express.js</div>
+                          <div class="skills git">GIT</div>
+                          <div class="skills api">APIs</div>
+                          <div class="skills ps">Photoshop</div>
+                          <!-- <div class="skills il">Adobe Illustrator</div> -->
+                        </div>
+                  </div>
+
+                <div class="flex-container ">
+                  <div style="flex-grow:8 " class="home-btns hide">
+                    <a href="./index.html#projects"><button class="btn-link">PROJECTS</button> </a> 
+                    <a href="./index.html#contact"><button class="btn-link">CONTACT</button></a>
+                  </div>
+                </div>
+              <!-- </div> -->
+           </div>
+
+            
+            <div id="projects" class="hide">
+
+            <h1 class="projects-section-title">PROJECTS</h1>
+
+            <div class="flex-container" class="project">
+                <div style="flex-grow: 8" class ="project-box">
+                    <img src="images/png/Tin-dog.PNG" alt="tindog" class="project-img">
+                    <h2 class ="project-subheading">Tin-Dog</h2>
+                    <p class ="project-description">Meet dogs near you! An interactive website primarily using
+                       Bootsrap navbar, carousel and layout. Along with HTML and CSS. </p>
+                    <a href="https://github.com/mapopo2/tindog"><button class="project-code">CODE</button></a> 
+                </div>
+            </div>
+
+            <div class="flex-container" class="project">
+                <div style="flex-grow: 8" class ="project-box">
+                    <img src="images/png/rating.PNG" alt="interactive rating component" class="project-img">
+                    <h2 class ="project-subheading">Interactive Rating Component</h2>
+                    <p class ="project-description">Simple interactive rating card challenge by Frontend Mentor. Returns rating
+                       and a message after pressing submit. Made using HTML, CSS, JavaScript and jQuery.  </p>
+                       <a href="https://github.com/mapopo2/interactiveRatingComponent"><button class="project-code">CODE</button></a>
+                </div>
+            </div>
+            <div class="flex-container" class="project">
+                <div style="flex-grow: 8" class ="project-box">
+                    <img src="images/png/Todoey.PNG" alt="to do list" class="project-img">
+                    <h2 class ="project-subheading">To-do List</h2>
+                    <p class ="project-description">Interactive to do list. Showing dates for today and tomorrow, and 
+                      lists specifically for work and life. Using EJS, JavaScript,  CSS, 
+                      Node.js and Express.js.  </p>
+                      <a href="https://github.com/mapopo2/todoey"><button class="project-code">CODE</button></a></a>
+                </div>
+            </div>
+          </div>
+          
+        <div id="contact" class="hide">
+            <h1 class="contact-section-title">CONTACT</h1>
+              
+            <div class ="flex-container" >
+               
+              <div style="flex-grow: 8" class="form-box">
+                <form action="">
+
+                    <label for="name">Name</label>
+                    <input type="text"  class="contact-name-input" placeholder="Enter Your Full Name"> </input>
+                    <!-- <input type="text"  class="contact-name-input" placeholder="Enter Your Last Name"> </input> -->
+                    <label for="email">Email</label>
+                    <input type="email"  class="contact-email-input"placeholder=" Enter Your Email"> </input>
+
+                    <label for="message">Message</label>
+                    <textarea class="contact-message" placeholder="Enter Your Message"></textarea>
+
+                    <a href="./index.html#home"><button class = "send" type="submit">SEND</button></a>
+
+                </form>
+              </div>
+            </div>
+        </div>
+
+              <div class="flex-container hide" id="footer" > 
+                <div style="flex-grow: 8" >
+                   <p class="footer-text">
+                    <span class="copyright-date"></span> Made by Takudzwa Chandiwana 
+                    <a href="https://github.com/mapopo2" class="icons">
+                      <i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/takudzwachandiwana" class="icons">
+                     <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                    </a>
+                    <a href="./index.html#home" class="back-to-top">
+                     <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+                    </a>
+                  </p>
+                </div>
+              </div>
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
