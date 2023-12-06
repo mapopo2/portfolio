@@ -171,10 +171,10 @@ width: 15rem;
 } 
 
 .skills {
-  flex: 1 1 5%;
+  flex: 1 1 10%;
   margin: 1rem;
   font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   padding: 1rem;
   color: white;
   font-weight: normal;
@@ -188,6 +188,7 @@ width: 15rem;
 .node {background-color: rgba(32, 109, 32, 0.733);} 
 .xps {background-color: rgb(3, 189, 3);} 
 .git {background-color: rgb(255, 82, 82);}
+.github {background-color: black;}
 .api {background-color: rgb(104, 157, 255);}
 
 #projects {
