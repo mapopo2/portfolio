@@ -106,8 +106,8 @@ button:hover {
   font-size: 1.5rem;
   /* letter-spacing: 0.2rem; */
   margin: 2rem;
-  box-shadow: 0.3rem 0.3rem 0.8rem rgba(122, 41, 252, 0.596);
-  background-color: rgba(203, 173, 252, 0.8) ;
+  box-shadow: 0.3rem 0.3rem 0.8rem rgba(157, 102, 246, 0.596);
+  background-color: rgba(219, 198, 252, 0.8) ;
   border: none;
   border-radius: 0.3rem;
   padding: 1rem 2rem;
