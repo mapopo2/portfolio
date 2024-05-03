@@ -40,7 +40,7 @@ body {
                     animation: fadeInAnimation ease 10s;}
 
 @keyframes profileMoveAnimation {
-  0% {right:0rem
+  0% {right: 0rem;
   }100% {
     right: 2rem;
   }
