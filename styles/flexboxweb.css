@@ -1,5 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
  }
 
  a:link {
@@ -217,6 +220,7 @@ button:hover {
 .git {background-color: rgb(255, 82, 82);}
 .github {background-color: black;}
 .api {background-color: rgb(104, 157, 255);}
+.pg {background-color: #37B7C3};
 
 #projects {
   background-color: #ffffff;
