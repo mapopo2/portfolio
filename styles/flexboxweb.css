@@ -239,9 +239,10 @@ button:hover {
 
 
 #projects {
-  text-align:center ;  
+  /* text-align:center ;  
   color: rgba(203, 173, 252, 0.8);
-  margin: auto; 
+  margin: auto;  */
+  margin-bottom: 2rem;
 }
 
 .projects-section-title{
@@ -251,7 +252,8 @@ button:hover {
   letter-spacing: 0.5rem;
   font-family: 'Source Code Pro', monospace;
   color: rgba(203, 173, 252, 0.8);
-
+  width: 100%;
+  text-align: center;
  }
 /* 
  .project {
@@ -265,6 +267,7 @@ button:hover {
   padding: 1rem;
   border-radius: 1rem;
  display: flex;
+ margin-bottom: 6rem;
   /* box-shadow: 0.5rem 0.5rem 3rem grey; */
  }
 
