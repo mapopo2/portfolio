@@ -6,6 +6,10 @@ body {
   background-color: black;
  }
 
+button, input{
+  font-family: 'Source Code Pro', monospace;
+ }
+
  a:link {
   text-decoration: none;
  }
@@ -44,7 +48,7 @@ body {
                     animation: fadeInAnimation ease 10s;}
 
 @keyframes profileMoveAnimation {
-  0% {right: 0rem;
+  0% {right: 0;
   }100% {
     right: 2rem;
   }
@@ -69,7 +73,6 @@ body {
 button:hover {
   background-color: rgb(237, 220, 255);
   cursor: pointer;
-} .project-code:hover, .send:hover {
   color: rgb(161, 129, 190);
 } 
 
@@ -82,7 +85,7 @@ button:hover {
 .page-nav-btns {
   width: 15rem;
   font-size: 1.5rem;
-  font-family: 'Source Code Pro', monospace;
+  /* font-family: 'Source Code Pro', monospace; */
   margin: 2rem;
   background-color: rgba(63, 56, 76, 0.8) ;
   border: none;
@@ -102,7 +105,7 @@ button:hover {
   border: none;
   border-radius: 0.5rem;
   padding: 1rem 2rem;
-  font-family: 'Source Code Pro', monospace;
+  /* font-family: 'Source Code Pro', monospace; */
 }
 
 .send {
@@ -113,8 +116,15 @@ button:hover {
   border: none;
   border-radius: 0.3rem;
   padding: 0.5rem 3rem;
-  font-family: 'Source Code Pro', monospace;
+  /* font-family: 'Source Code Pro', monospace; */
 } 
+
+.icons {
+  margin-left: 1rem;
+} .back-to-top {
+  float: right;
+  margin: 0.5rem 1rem 0 0;
+}
 
 /* -------------------------------------------------------------------- */
 #home {
@@ -134,7 +144,7 @@ button:hover {
     text-align: left;
     width: 90%;
     min-width:0;
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
     color:rgba(203, 173, 252, 0.8);
   
   }
@@ -162,13 +172,14 @@ button:hover {
   .profile-pic {
    border-radius: 50%;
     width: 8rem;
-   box-shadow: 0rem 0rem 2rem 0.6rem rgba(134, 104, 182, 0.8);
-   -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
-   filter: grayscale(20%);
+   box-shadow: 0 0 2rem 0.6rem rgba(134, 104, 182, 0.8);
+   /* -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 
+   filter: grayscale(20%); */
 }
 
 .skills-row {
-  text-align: center;
+  /* text-align: center;  
+  repeated code, skills-row is also flex-container class*/
   display: flex;
   flex-wrap:wrap;
   min-height: 0;
@@ -203,7 +214,7 @@ button:hover {
   margin-bottom: 2rem;
 }
 
-.projects-section-title{
+.projects-section-title, .contact-section-title {
   margin: 0;
   font-size: 2.5rem;
   font-weight: bold;
@@ -221,8 +232,8 @@ button:hover {
   border-color: rgba(203, 173, 252, 0.8);
   padding: 1rem;
   border-radius: 1rem;
- display: flex;
- margin-bottom: 6rem;
+  display: flex;
+  margin-bottom: 6rem;
   /* box-shadow: 0.5rem 0.5rem 3rem grey; */
  }
 
@@ -258,12 +269,7 @@ button:hover {
 }
 
 .contact-section-title {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  letter-spacing: 0.5rem;
-  font-family: 'Source Code Pro', monospace;
-  color: rgba(203, 173, 252, 0.8); 
+margin-bottom: 1rem;
 }
 
 form {
@@ -304,9 +310,9 @@ input, textarea{
   /* font-family: 'Roboto', sans-serif; */
 }
 
-input {
+/* input {
   font-family: 'Source Code Pro', monospace;
-}
+} */
 
 textarea {
   height: 12rem ;
@@ -334,26 +340,23 @@ textarea {
   font-weight: lighter;
 }
 
-.icons {
-  margin-left: 1rem;
-} .back-to-top {
-  float: right;
-  margin: 0.5rem 1rem 0 0;
-}
-
 /* --------------------Device specs------------------------ */
 @media only screen and (max-width: 900px) {
   .flex-container {
     flex-direction: column;
   } .home-bits-text {
     padding-left: 0;
+  }.page-nav-btns{
+    /* width: 100%; */
+    /* text-align: center; */
+    margin: 1rem 0;
   }.heading {
       font-size: 2.2rem;
     } .pic-sm-box {
       animation: fadeInAnimation;
       }  .pic-box {
       padding-top: 0;
-  } .skills {
+  }.skills {
     flex: 1 1 20%;
   } .project-subheading, .project-description {
     float: none;
@@ -363,21 +366,21 @@ textarea {
     font-size: 1rem;
   } #footer {
     min-height: 0;
-    line-height: 2rem;
+    line-height: 3rem;
     text-align: center;
   /* }.footer-text {
     width:80%;
   } */}.icons {
     margin-left: 0.2rem;
   }.back-to-top {
-    margin: 1rem 0 1rem;
-    /* float: none; */
+    margin: 1rem 0 1rem 1rem;
+    float: none;
   }.project-box {
     margin: 1.3rem;
     flex-direction: column;
   }.project-pic-box, .project-txt-box{
     width: 100%;
-    padding: 0rem;
+    padding: 0;
   }form {
     width: 90%;
     }.project-description {
